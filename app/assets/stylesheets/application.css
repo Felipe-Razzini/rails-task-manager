@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ .list-item {
+  list-style-type: none;
+ }
+
+ .btn {
+  color: white;
+ }
+
+ .div-task {
+  width: 30px;
+ }

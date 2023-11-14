@@ -1,0 +1,7 @@
+<div class="d-flex w-50 justify-content-between">
+<h2><%= @task.title.capitalize %></h2>
+<p class="btn btn-light"><%= link_to "Update task", edit_path%></p>
+</div>
+<p><%= @task.details %></p>
+
+<%= link_to "Back to list", tasks_path %>
